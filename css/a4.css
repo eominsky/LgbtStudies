@@ -174,31 +174,31 @@ a {
     color: #ABF7FF;
 }
 
-#white{
+.white{
   color: white;
 }
-#red{
+.red{
   color: red;
 }
 
-#orange{
+.orange{
   color: orange;
 }
 
-#yellow{
-  color: yellow;
+.yellow{
+  color: #ffff00;
 }
 
 
-#green{
+.green{
   color: #16DF1D;
 }
 
-#blue{
+.blue{
   color: #ABF7FF;
 }
 
-#purple{
+.purple{
   color: #C4A1FF;
 }
 
