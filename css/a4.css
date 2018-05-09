@@ -51,6 +51,11 @@ p {
     color: #16DF1D;
 }
 
+.extra {
+    font-size: 100%;
+    font-family: 'Nunito', sans-serif;
+    color: magenta;
+}
 
 code {
     font-family: 'Ubuntu Mono', monospace; /* needed for Chrome */
@@ -69,6 +74,10 @@ img{
 /* styling by section */
 /**********************/
 
+a {
+    color: white;
+}
+
 #banner {
     background-color: #1F1053;
     color: #ffffff;
@@ -86,10 +95,10 @@ img{
     padding-bottom: 0.5em;
     padding-top: 0.5em;
     text-shadow:
--1px -1px 0 #fff,
-1px -1px 0 #fff,
--1px 1px 0 #fff,
-1px 1px 0 #fff;
+-1px -1px 0 #000,
+1px -1px 0 #000,
+-1px 1px 0 #000,
+1px 1px 0 #000;
 }
 
 #banner > h2 {
@@ -145,7 +154,7 @@ img{
 
 #content {
     max-width: 960px;
-    margin-top: 11.5em;
+    margin-top: 9em;
     margin-right: auto;
     margin-left: auto;
 }
@@ -162,15 +171,35 @@ img{
     font-family: 'Oxygen', sans-serif;
     text-align: center;
     font-size: 85%;
+    color: #ABF7FF;
 }
 
-#table_header {
-    font-family: 'Oxygen', sans-serif;
-    color: #ABF7FF;
-    font-size: 3em;
-    padding-bottom: 0;
-    margin-bottom: 0;
-    text-align: center;
+#white{
+  color: white;
+}
+#red{
+  color: red;
+}
+
+#orange{
+  color: orange;
+}
+
+#yellow{
+  color: yellow;
+}
+
+
+#green{
+  color: #16DF1D;
+}
+
+#blue{
+  color: #ABF7FF;
+}
+
+#purple{
+  color: #C4A1FF;
 }
 
 #center {
